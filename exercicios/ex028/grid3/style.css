@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container {
+    background-color: rgb(80, 78, 78);
+    border: 5px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container div {
+    background-color: white;
+    border: 1px solid blue;
+    padding: 20px;
+    
+}
+
+#item-1 {
+    grid-column: 2/4;
+}
+
+#item-2 {
+    grid-row: 1/4;
+}
+
+#item-3 {
+    grid-row: 2/4;
+}
+
+#item-6 {
+    grid-column: 1/4 ;
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container {
+    background-color: rgb(80, 78, 78);
+    border: 5px solid red;
+    padding: 15px;
+    display: grid;
+    height: 500px;
+    grid-template-columns: 100px auto 20% 10%;
+    grid-template-rows: 430px 50px;
+    gap: 20px; 
+}
+
+.container div {
+    background-color: white;
+    border: 1px solid blue;
+    padding: 20px;
+}
